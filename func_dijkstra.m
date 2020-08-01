@@ -1,4 +1,4 @@
-function x_let=func_dijkstra(A,b,mu)
+function [x_let]=func_dijkstra(A,b,mu)
 %% calculate #nodes and #edges out of the map
 [~,num_edges]=size(A); % num_nodes is the number of nodes.num_edges is the number of edges
 
@@ -18,7 +18,7 @@ mu_real=mu';
 graph_dijkstra = digraph(start_node_real,end_node_real,mu_real);
 
 %% use dijkstra's algorithm to find the shortest path
- [~,~,x_let] =shortestpath(graph_dijkstra,r,s);
+[~,~,x_let] =shortestpath(graph_dijkstra,r,s);
 
 
 
