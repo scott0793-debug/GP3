@@ -13,5 +13,6 @@ Matlab 2018a
  - func_rsp_SP.m,func_rsp_zwl and func_rsp_zyl:method of SP, LR and SG
  - func_sioux_Amap.m:the network of Sioux Falls
  - main_sioux_network.m:Sample code for testing GP3 and benchmarks on Sioux Falls network
+ - main_chengdu_time.m: evaluate the run time of GP3
 
 Please contact the author (guohongliang_uestc@163.com) to fetch the data for the map information, travel time statistics, as those files are too big to be uploaded.
