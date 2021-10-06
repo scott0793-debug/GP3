@@ -1,6 +1,7 @@
 # GP3
 # source code of GP3
-This file shows the Python and matlab code of SP, SG, LR and GP3 algorithm proposed in the paper "Adaptive Reliable Path Planning in Gaussian Process Regulated Environment".
+This file shows the Python and matlab code of SP, SG, LR and GP3 algorithm proposed in the paper "GP3: Gaussian Process Path Planning for Reliable
+Shortest Path in Transportation Networks".
 # File of maltlab
 The maltlab folder contains the maltlab code for the four algorithms,and because the MATLAB code is too large to upload completely, only the sioux Falls road network is displayed in this folder.
 # Required version of Matlab
